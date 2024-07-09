@@ -22,4 +22,8 @@ public class ScoreManager : MonoBehaviour
         Debug.Log(_score);
         scoreText.text = "Score: "+_score.ToString();
     }
+
+    public int getScore(){
+        return _score;
+    }
 }
